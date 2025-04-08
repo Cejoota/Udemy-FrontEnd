@@ -1,0 +1,124 @@
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: sans-serif;
+}
+
+/* HEADER */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #000000;
+  width: 50vw;
+  margin: auto;
+}
+
+.header__title {
+  color: white;
+  font-size: 35px;
+  margin: 20px;
+}
+
+.header__list {
+  display: flex;
+  gap: 25px;
+  font-size: 25px;
+  margin: 20px;
+}
+
+.header__list-item a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  padding: 10px;
+  background-color: rgba(150, 238, 19, 0.793);
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* /HEADER */
+
+/* MAIN */
+
+.subtitle {
+  color: white;
+  font-size: 35px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid black;
+  width: 50vw;
+  margin: auto;
+}
+
+.main__card {
+    display: flex;
+    flex-direction: column;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  background-color: #737373bc;
+  border-radius: 10px;
+  width: 300px;
+  height: 400px;
+}
+
+.main__card-title {
+  color: white;
+  font-size: 20px;
+  margin: 15px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid green;
+}
+
+.main__card-price {
+  color: white;
+  font-size: 25px;
+  text-align: left;
+  margin: 20px 15px;
+}
+
+span {
+  font-size: 13px;
+}
+
+.main__card-list {
+  list-style-type: disc;
+  list-style-position: inside;
+  color: white;
+  margin: 15px;
+  text-align: left;
+}
+
+.main__list-item {
+  margin: 8px 0;
+}
+
+/* /MAIN */
+
+/* BUTTON */
+
+button{
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(150, 238, 19, 0.793);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;  
+    width: 90%;
+    
+
+}
+
+
+
+/* /BUTTON */
