@@ -1,0 +1,133 @@
+/* RESET CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* / RESET CSS */
+
+/* BODY */
+body{
+    font-family: sans-serif;
+    background-color: rgb(201, 201, 201);
+}
+/* /BODY */
+
+/* CONTENT */
+.content{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* VH = Viewport Height (tamanho do dispositivo) */
+}
+
+/* /CONTENT */
+
+/* HEADER */
+header{
+    height: 360px;
+    background-image: url(/imagens/bg-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-top: 1px;
+}
+/* /HEADER */
+
+/* MENU */
+.menu{
+    padding: 20px;
+    letter-spacing: 1px;
+}
+
+.menu-lista{
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-right: 20px;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    background-color: rgba(82, 82, 82, 0.553);
+    border: 1px solid white;
+    padding: 9px 12px;
+    font-size: 10px;
+}
+
+.link:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* /MENU */
+
+/* SUBTITULO */
+.subtitulo{
+    color: white;
+    text-align: center;
+}
+
+.titulo{
+    margin: 100px 0 40px 0;
+    font-size: 41px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.paragrafo{
+    display: inline;
+    border-bottom: 1px solid white;
+    background-color: rgba(24, 24, 24, 0.553);
+    padding: 10px;
+    margin: 0;
+    font-size: 11px;
+}
+/* /SUBTITULO */
+
+/* MAIN */
+.conteudo, .conteudo2, .conteudo3{
+    flex: 1;
+    background-color: white;
+    padding:15px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 860px;
+}
+
+.html, .css, .js{
+    font-size: 15px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.256);
+    padding: 8px;
+    background-color: #eee;
+    margin-top: 0;
+}
+
+.p1, .p2, .p3{
+    font-size: 11px;
+    margin: 10px auto;
+}
+
+.s1, .s2, .s3{
+    display: block;
+    font-size: 10px;
+    color: white;
+    background-color: rgba(158, 158, 158, 0.553);
+    padding: 7px;
+    border-radius: 3px;
+    margin-left: auto;
+    width: fit-content;
+}
+/* /MAIN */
+
+/* FOOTER */
+footer{
+    background-color: rgba(0, 0, 0, 0.504);
+    font-size: 9px;
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+/* /FOOTER */

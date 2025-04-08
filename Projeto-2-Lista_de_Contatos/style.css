@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    background-color: rgb(1, 238, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 0 0 20px 0;
+}
+
+.container{
+    border: 1px solid black;
+    width: 38%;
+    max-width: 800px;
+    height: 35rem;
+    background-color: white;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.picture{
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.container-text{
+    text-align: left;
+    margin: 25px 0 0 20px;
+    flex-grow: 1;
+}
+.text-p1{
+    font-size: 30px;
+}
+
+.text-p2{
+    font-size: 22px;
+    color: #b4b2b2;
+    padding: 7px 0 0 0;
+}
+
+.divpic{
+    display: flex;
+    border-bottom: 1px solid #eee;
+}
+
+.divpic:hover{
+    background-color: #cac9c97c;
+}
+
+.divpic:hover .icon{
+    opacity: 1;
+}
+
+.icon{
+    position: relative;
+    left: 400px;
+    bottom: 23px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.trash-icon{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 70px;
+    cursor: pointer;
+}
+
+.edit-icon{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 80px;
+    cursor: pointer;
+}
