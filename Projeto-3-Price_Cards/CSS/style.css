@@ -1,6 +1,10 @@
 body {
-  background-color: rgb(0, 0, 0);
-  font-family: sans-serif;
+  background-color: #0c1014;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 /* HEADER */
@@ -9,34 +13,47 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 16px;
   border: 1px solid #000000;
   width: 50vw;
   margin: auto;
+  background-color: #05080a;
 }
 
 .header__title {
-  color: white;
-  font-size: 35px;
-  margin: 20px;
+  font-size: 36px;
+  margin-left: 16px;
+  letter-spacing: 2px;
 }
 
 .header__list {
   display: flex;
-  gap: 25px;
-  font-size: 25px;
+  list-style-type: none;
+  gap: 16px;
+  font-size: 18px;
   margin: 20px;
 }
 
 .header__list-item a {
   color: white;
   text-decoration: none;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+a.header__list-item--active {
+  background-color: #cbe300;
+  color: #0c1014;
+  pointer-events: none;
 }
 
 a:hover {
   padding: 10px;
-  background-color: rgba(150, 238, 19, 0.793);
-  border-radius: 10px;
+  background-color: #cbe300;
+  border-radius: 6px;
   text-align: center;
+  text-decoration: underline;
+  color: #0c1014;
 }
 
 /* /HEADER */
@@ -44,9 +61,8 @@ a:hover {
 /* MAIN */
 
 .subtitle {
-  color: white;
-  font-size: 35px;
-  margin: 20px auto;
+  font-size: 62px;
+  margin: 46px 0;
   text-align: center;
 }
 
@@ -54,71 +70,84 @@ a:hover {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  border: 1px solid black;
   width: 50vw;
-  margin: auto;
+  margin: 80px auto;
+  gap: 16px;
 }
 
 .main__card {
-    display: flex;
-    flex-direction: column;
-  border: 1px solid black;
-  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
   margin: 10px;
-  background-color: #737373bc;
-  border-radius: 10px;
+  background-color: #1f262c;
+  border-radius: 6px;
+  box-shadow: 0 5px 12px black;
   width: 300px;
-  height: 400px;
+  height: 320px;
+  flex: 1;
 }
 
 .main__card-title {
-  color: white;
   font-size: 20px;
-  margin: 15px;
-  padding-bottom: 5px;
-  border-bottom: 2px solid green;
+  margin-top: 0px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #cbe300;
+  letter-spacing: 2px;
 }
 
 .main__card-price {
-  color: white;
-  font-size: 25px;
+  font-size: 30px;
   text-align: left;
-  margin: 20px 15px;
+  margin-top: 20px;
 }
 
 span {
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .main__card-list {
   list-style-type: disc;
   list-style-position: inside;
-  color: white;
-  margin: 15px;
+  margin: 10px 0;
+  line-height: 1.8;
+  color: #b5b5b5;
   text-align: left;
+  height: 80vh;
+  flex-grow: 1;
 }
 
 .main__list-item {
-  margin: 8px 0;
+  margin: 6px 0;
+  font-size: 14px;
+}
+
+.main__list-item::marker {
+  color: #cbe300;
 }
 
 /* /MAIN */
 
 /* BUTTON */
 
-button{
-    margin: 10px auto;
-    padding: 10px;
-    background-color: rgba(150, 238, 19, 0.793);
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
-    font-size: 20px;  
-    width: 90%;
-    
-
+button {
+  display: flex;
+  text-align: center;
+  color: #0c1014;
+  justify-content: center;
+  padding: 16px 10px;
+  background-color: #cbe300;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  width: 15vw;
 }
 
-
-
+button:hover {
+  outline: 2px solid #cbe300;
+  background-color: transparent;
+  color: #ffffff;
 /* /BUTTON */
