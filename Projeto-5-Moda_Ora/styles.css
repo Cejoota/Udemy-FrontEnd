@@ -34,7 +34,7 @@ header {
   font-size: 24px;
   font-family: "Viaoda Libre", cursive;
   letter-spacing: 2px;
-  padding-left: 10%;
+  padding: 0.5% 10%;  
   cursor: pointer;
 }
 
@@ -119,8 +119,7 @@ a:hover {
 
 section {
   background-image: url(./imagens/bg_detalhe.png);
-  /* background-size: 1523px 600px ; */
-  background-color: #003d52;
+  background-color: var(--bg-image);
   background-position: right bottom;
   background-repeat: no-repeat;
   height: 600px;
@@ -152,3 +151,16 @@ section {
 }
 
 /*/ SECTION \*/
+
+/* FOOTER */
+
+.footer__copy{
+    background-color: var(--bg-footer);
+    color: var(--text-footer);
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+
+/*/ FOOTER \*/
