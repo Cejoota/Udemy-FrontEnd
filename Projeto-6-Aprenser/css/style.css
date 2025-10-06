@@ -1,0 +1,88 @@
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  background-color: #2a2a2a;
+  flex-shrink: 0;
+}
+
+.logo {
+  width: 200px;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  color: white;
+}
+
+.menu__list {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #fed001;
+  border: 2px solid #fed001;
+  padding: 12px 18px;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 24px;
+}
+
+/*/ HEADER */
+
+/* MAIN */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px;
+  gap: 20px;
+  background: linear-gradient(180deg, #fff 0%, #ffff38 100%);
+}
+
+.container__text {
+  color: #2a2a2a;
+  font-family: "Maven Pro";
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 135%; /* 91.8px */
+  width: 557px;
+}
+
+.btn {
+  display: inline-flex;
+  padding: 16px 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: #fed001;
+  color: #2a2a2a;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 136%; /* 24.48px */
+  letter-spacing: 0.36px;
+  cursor: pointer;
+}
+
+/*/ MAIN */
+
+/* SECTION */
+
+
+
+/*/ SECTION */
