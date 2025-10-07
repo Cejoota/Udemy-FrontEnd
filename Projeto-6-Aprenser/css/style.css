@@ -141,7 +141,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 150%; /* 24px */
-  padding: 12px; 
+  padding: 12px;
 }
 
 .courses__btn {
@@ -215,3 +215,38 @@ body {
 }
 
 /*/ SECTION2 */
+
+/* SECTION3 */
+
+
+.contacts__title {
+  color: #071d2e;
+  text-align: center;
+  font-family: "Maven Pro";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 136%; /* 54.4px */
+  margin: 70px 0;
+}
+
+.contacts__map{
+    width: 1300px;
+}
+
+.contacts__info{
+    padding: 40px;
+}
+
+.contacts__address{
+color: #071D2E;
+text-align: right;
+font-feature-settings: 'salt' on, 'liga' off;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 148%; /* 26.64px */
+}
+
+/*/ SECTION3 */
