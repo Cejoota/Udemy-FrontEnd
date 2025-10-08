@@ -30,6 +30,10 @@
   color: white;
 }
 
+.menu__list:hover{
+  background-color: black;
+}
+
 .menu__list {
   font-family: "Maven Pro", sans-serif;
   font-size: 16px;
@@ -54,6 +58,10 @@ a {
 
 .wrapperContainer-main {
   background: linear-gradient(180deg, #fff 0%, #ffff38 100%);
+}
+
+.upper {
+  text-transform: uppercase;
 }
 
 .main {
@@ -269,7 +277,6 @@ a {
   font-style: normal;
   font-weight: 400;
   line-height: 148%; /* 26.64px */
-  padding-right: 50px;
 }
 
 /*/ SECTION3 */
