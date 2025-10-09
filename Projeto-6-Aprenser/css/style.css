@@ -6,7 +6,15 @@
   box-sizing: border-box;
 }
 
+.wrapperContainer-padded {
+  padding-top: 120px;
+}
+
 .wrapperContainer-dark {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 100;
   background-color: #2a2a2a;
 }
 
