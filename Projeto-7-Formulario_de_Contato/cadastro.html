@@ -12,17 +12,22 @@
         rel="stylesheet">
 </head>
 
-<body>
-    <h1>Cadastre-se</h1>
-    <form action="/login" method="post">
+<body class="bodyLog">
+
+    <form class="form" action="/login" method="post">
+        <h1 class="cad">Cadastre-se</h1>
         <label for="username">Usuário</label>
-        <input type="text" id="username" name="username" required>
+        <input class="username" type="text" id="username" name="username" required>
         <label for="EMAIL">Email</label>
-        <input type="text" id="email" name="email" required>
+        <input class="email" type="text" id="email" name="email" required>
         <label for="password">Senha</label>
-        <input type="password" id="password" name="password" required>
-        <button type="submit">CADASTRE-SE</button>
-        <p>Já possui cadastro? <a href="./index.html">Faça login</a></p>
+        <input class="password" type="password" id="password" name="password" required>
+        <div class="containerLog">
+            <div class="container-btn">
+                <button class="cadastre" type="submit">CADASTRE-SE</button>
+            </div>
+            <p>Já possui cadastro? <a href="./index.html">Faça login</a></p>
+        </div>
     </form>
 </body>
 
