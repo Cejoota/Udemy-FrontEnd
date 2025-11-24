@@ -1,21 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
-<body>
-    <h1>Login</h1>
-    <form action="/login" method="post">
-        <label for="username">Usuário:</label>
-        <input type="text" id="username" name="username" required>
-        <label for="password">Senha:</label>
-        <input type="password" id="password" name="password" required>
-        <button type="submit">LOGIN</button>
-        <button type="submit">CADASTRE-SE</button>
-        <a href="./cadastro.html">Esqueci minha senha</a>
+
+<body class="bodyLog">
+
+    <form class="form" action="/login" method="post">
+        <h1 class="log">Login</h1>
+        <label for="username">Usuário</label>
+        <input class="username" type="text" id="username" name="username" required>
+        <label for="password">Senha</label>
+        <input class="password" type="password" id="password" name="password" required>
+        <div class="containerLog">
+            <div class="container-btn">
+                <button class="login" type="submit">LOGIN</button>
+                <button class="cadastro" type="submit">CADASTRE-SE</button>
+            </div>
+            <a class="forgetPass" href="./cadastro.html">Esqueci minha senha</a>
+        </div>
     </form>
 </body>
+
 </html>

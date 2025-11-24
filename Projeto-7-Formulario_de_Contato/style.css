@@ -1,5 +1,114 @@
+:root{
+    --primary-color: #3a68b7;
+
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
+
+/* LOGIN */
+
+.bodyLog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--primary-color);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid rgba(0, 31, 83, 0.85);
+    width: 35%;
+}
+
+.log{
+    color: var(--primary-color);
+    padding-bottom: 20px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 300;
+}
+
+.username, .password{
+    display: block;  
+    width: 100%;
+    padding: 12px 4px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+}
+
+.containerLog{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.container-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.login{
+    font-weight: bold;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 8px;
+    border-radius: 3px;
+    width: 5rem;
+    cursor: pointer;
+}
+
+.username:focus, .password:focus{
+    border: 1px solid var(--primary-color);
+    outline: none;
+}
+
+.cadastro{
+    font-weight: bold;
+    background-color: white;
+    color: var(--primary-color);
+    border: none;
+    padding: 8px;
+    border-radius: 3px;
+    width: 7rem;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.forgetPass{
+    font-size: 12px;
+}
+
+.login, .cadastro {
+    transition: transform 0.2s ease-in-out;
+    transform-origin: center;
+}
+
+.login:hover, .cadastro:hover {
+    transform: scale(1.05);
+}
+
+a{
+    text-decoration: none;
+    color: var(--primary-color);
+    padding-top: 10px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/*/ LOGIN */
+
+/* CADASTRO */
