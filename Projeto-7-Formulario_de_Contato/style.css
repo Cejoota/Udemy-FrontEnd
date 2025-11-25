@@ -45,7 +45,7 @@ form {
   margin-bottom: 15px;
   font-size: 16px;
   border: none;
-  border-bottom: 2px solid #ccc;
+  border-bottom: 1px solid var(--primary-color);
 }
 
 .containerLog {
@@ -73,8 +73,8 @@ form {
 .username:focus,
 .password:focus,
 .email:focus {
-  border: 1px solid var(--primary-color);
-  outline: none;
+  outline: 1px solid var(--primary-color);
+  
 }
 
 .cadastro {
